@@ -79,7 +79,7 @@ def main(*, verbose: bool) -> None:
         response = airtable_table.create(accession_data)
         logger.info(
             "Airtable row created for Accession Number: "
-            f"'{response["fields"]["Accession Number"]}'"
+            f"'{response['fields']['Accession Number']}'"
         )
 
         # Update SSM parameter

@@ -17,7 +17,7 @@ Sentry will be used for exception monitoring and the application is expected to 
 - To update dependencies: `make update`
 - To run unit tests: `make test`
 - To lint the repo: `make lint`
-- To run the app: `pipenv run asati --help`
+- To run the app: `uv run asati --help`
 
 ### Environment Variables
 
